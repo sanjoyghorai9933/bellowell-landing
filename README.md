@@ -1,14 +1,13 @@
 # Bellowell Landing Page Recreation
 
-Recreated from the public reference landing page:
-https://bellowell.innerlytics.webinar.bellowell.com/
+Reference: https://bellowell.innerlytics.webinar.bellowell.com/
 
 ## Run locally
 
-No build step is required. Open the folder in VS Code and run:
-
+```bash
 python3 -m http.server 5173
+```
 
-Then visit http://localhost:5173
+Open http://localhost:5173
 
-The page is a static HTML/CSS/JS implementation. External Google Fonts are loaded at runtime. The original site embeds a Wistia video; this recreation uses a local visual placeholder so no private/proprietary video code is copied.
+This is a static HTML/CSS/JS recreation. The original hosted Wistia player is represented by a visual placeholder rather than copied player code.
